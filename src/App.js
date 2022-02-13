@@ -8,9 +8,9 @@ export default function App() {
         <div className="container">
         	<header className="App-header">
           	<img src={logo} className="App-logo img-fluid" alt="logo" />
-        	<main>
+        		<main>
 				<Dictionary />
-			</main>
+				</main>
 			</header>
         	<footer className="text-center">Coded by SheCodes
         	</footer>
