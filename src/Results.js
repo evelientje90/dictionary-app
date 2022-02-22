@@ -1,4 +1,5 @@
 import React from "react";
+import "./Results.css";
 import Meaning from "./Meaning";
 import Phonetic from "./Phonetic";
 
@@ -6,7 +7,7 @@ export default function Results(props) {
     if (props.results) {
     return (
     <div className="Results">
-        <section>
+        <section className="heading-One text-center">
             <h2>{props.results.word}</h2>
             {props.results.phonetics.map(function(phonetic, index) {
             return (
